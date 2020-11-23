@@ -1,0 +1,112 @@
+.primaryLogo {
+    position: relative;
+    height: 35%;
+    width: 35%;
+}
+
+body {
+    background-color: rgb(18,23,63);
+    color:white;
+}
+
+.header {
+    color: rgb(255,187,34);
+    text-align: center;
+}
+
+li.menu {
+    display: inline-block;
+    font-size: large;
+}
+
+li a {
+    display: block;
+    color:rgb(255,187,34);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: white;
+}
+
+.links {
+    text-align: center;
+    list-style-type: none;
+    margin:0 auto;
+    padding:0;
+    overflow: hidden;
+    background-color: rgb(93,118,169);
+    width: 80%;
+}
+
+div.schedule {
+    margin:0 auto;
+    width: 60%;
+    height: 750px;
+    overflow:scroll;
+    color: rgb(255,187,34);
+    background: rgb(93,118,169);
+    font-size: large;
+}
+
+div.schedule a {
+    color: rgb(18,23,63);
+}
+
+div.menu {
+    margin:0 auto;
+}
+
+h3 {
+    text-align: center;
+    color:rgb(255,187,34);
+}
+
+ul {
+    width: 60%;
+    margin:auto;
+}
+
+div.facts {
+    color:white;
+    font-size: 175%;
+}
+
+div.facts h3 {
+    font-size: 200%;
+}
+
+form {
+    width: 300px;
+    margin:0 auto;
+    color:rgb(255,187,34);
+    font-size: 175%;
+}
+
+.rookie {
+    color:rgb(255,187,34);
+    font-size: 175%;
+}
+
+.rookie a {
+    color:rgb(255,187,34);
+}
+
+.carousel-inner {
+    margin:0 auto;
+    height: 400px;
+    width: 600px;
+}
+
+input[type=text] {
+    background-color: rgb(93,118,169);
+    border-radius: 10px;
+}
+
+input[type=submit] {
+    color:rgb(93,118,169);
+    font-weight: bold;
+    border-radius: 10px;
+}
