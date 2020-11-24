@@ -9,9 +9,10 @@ var express = require('express');
 var app = express();
 var handlebars = require('express-handlebars').create({defaultLayout:'main'});
 
+var port = process.env.PORT || 8083;
+
 app.engine('handlebars', handlebars.engine);
 app.set('view engine', 'handlebars');
-app.set('port', 61990);
 
 app.use(express.static('public'));      // https://www.youtube.com/watch?v=o4njTeKjGWQ
 
@@ -47,6 +48,6 @@ app.use(function(req,res) {
     res.render('500');
 });
 
-app.listen(app.get('port'), function() {
-    console.log('Express started on http://localhost:' + app.get('port') + '; press CTRL-C to terminate.');
+app.listen(port, function() {
+    console.log('Express started on http://localhost:' + port + '; press CTRL-C to terminate.');
 });
