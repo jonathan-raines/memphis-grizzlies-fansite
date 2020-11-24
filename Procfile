@@ -1,1 +1,1 @@
-web: node grizzlies.js
+web: node --inspect grizzlies.js
